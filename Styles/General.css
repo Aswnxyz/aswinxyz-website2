@@ -1,0 +1,18 @@
+body{
+    
+    margin: 0;
+    background-color:#121212;
+    font-family: Arial, Helvetica, sans-serif;
+   padding-left: 248px;
+    padding-top: 75px;
+    padding-bottom: 280px;
+    padding-right: 28px;
+
+}
+div{
+    color:rgb(155, 155, 155);
+}
+div p{
+    color: white;
+    font-weight: bold;
+}

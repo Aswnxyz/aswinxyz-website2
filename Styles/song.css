@@ -1,0 +1,87 @@
+.title-1{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+}
+
+
+.title-2{
+  color: white;
+  display: flex;
+  justify-content:space-between ;
+  height:75px ;
+  align-items: center;
+  margin-top: 10px;
+}
+.title-white{
+  color: white;
+  font-size: 24px;
+  font-weight:bold;
+  cursor: pointer;
+}
+.title-white:hover,
+.title-underline:hover{
+text-decoration: underline;
+cursor: pointer;
+
+}
+
+.div-block{
+  background-color:#181818;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  height: 254px;
+  width: 154px;
+  border-radius: 10px;
+  transition:background-color 0.15s,opacity 0.15s;
+  cursor: pointer;
+ 
+}
+.div-block:hover {
+ background-color: rgb(37, 37, 37);
+ 
+}
+.div-block:hover .play-button-icon{
+  opacity: 1;
+}
+.thumb-pic{
+  width: 100%;
+ 
+}
+.thumb{
+  position: relative;
+}
+.theme-info{
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.play-button-icon{
+  background-color: rgb(73, 223, 73);
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  font-size: 20px;
+  color: black;
+  display: flex;
+ align-items: center;
+  justify-content: center;
+position: absolute;
+bottom: 12px;
+right: 8px;
+opacity:0;
+transition: opacity 0.15s;
+}
+
+
+  .song-grid{  
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+ 
+} 
